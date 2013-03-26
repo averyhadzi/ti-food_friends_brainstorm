@@ -1,0 +1,36 @@
+body{
+	background-color:#ccc;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size:10px; 
+}
+
+a{
+	text-decoration: none;
+	transition:color 0.2s linear;
+	-moz-transition:color 0.2s linear;
+	-o-transition:color 0.2s linear;
+	-webkit-transition:color 0.2s linear;
+}
+
+/* Forms */
+label,
+input{font-size:11px;}
+
+
+
+/* Fonts */
+h1{font-size:16px;}
+
+@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('fonts/WebSymbols-Regular-webfont.eot');
+    src: url('fonts/WebSymbols-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WebSymbols-Regular-webfont.woff') format('woff'),
+         url('fonts/WebSymbols-Regular-webfont.ttf') format('truetype'),
+         url('fonts/WebSymbols-Regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.symbol{font-family: 'WebSymbolsRegular';}
+
