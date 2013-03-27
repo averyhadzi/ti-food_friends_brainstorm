@@ -1,0 +1,31 @@
+
+/* Popup Content for Colorbox */
+
+body { 	
+	width: 800px; 
+	height: 400px;
+	margin: 0;  
+	padding: 0;
+}
+
+#content-full {
+	color: #000; 
+	font-size: 10px; /*for easy em conversion */ 
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
+	position: relative; 
+	overflow: hidden; 
+	width: 800px; 
+	height: 400px; 
+}
+#content-full .content-wrap { padding: 20px; position: relative;  display: inline-block; }
+#content-full .col { float: left; }
+#content-full .col.left { width: 200px; margin-right: 10px; }
+#content-full .col.right { width: 550px; height: 400px; overflow-y: auto; overflow-x: hidden; }
+
+#content-full .featuredImage-full { width: 150px; margin: 0 auto; overflow: hidden; }
+#content-full .featuredImage-full img { max-height: 400px; }
+
+#content-full .content-title { font-size: 2em; }
+
+.content-body { margin-top: 20px; font-size: 1.2em; font-weight: 400; line-height: 1.4em; } 
+.content-body p { padding: 5px 0; }
